@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="http://example.com/favicon.ico"
+    />
+    <link rel="icon" type="image/png" href="images/home_background.png" />
+    <link rel="icon" type="image/gif" href="http://example.com/favicon.gif" />
+    <link rel="icon" type="image/jpeg" href="http://example.com/favicon.jpeg" />
+    <link rel="icon" type="image/webp" href="http://example.com/favicon.webp" />
+
+    <link rel="stylesheet" href="myboot/boot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="swiper/swiper.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- <h1>
+    Hello EveryBody
+
+  </h1> -->
+    <!-- loader  -->
+    <!-- <div class="loader_before">
+    <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+  </div> -->
+    <!-- end loader -->
+    <!-- header -->
+
+    <!-- navgaition menu -->
+    <nav id="nav-top">
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">
+            <img src="images/logo.png" alt="" srcset="" />
+          </a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-title">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact-title">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fa fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <header style="display: none">
+      <!-- header inner -->
+      <div class="container">
+        <div class="header-app">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarsExample04"
+            aria-controls="navbarsExample04"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- links -->
+          <div class="links">
+            <a href="">
+              <div class="link">Home</div>
+            </a>
+            <a href="">
+              <div class="link">About</div>
+            </a>
+            <a href="">
+              <div class="link">Services</div>
+            </a>
+            <!-- <a href="">
+            <div class="link">Customers</div>
+          </a> -->
+            <a href="">
+              <div class="link">Contact</div>
+            </a>
+            <a href="">
+              <div class="link icon">
+                <i class="fa fa-address-book"></i>
+              </div>
+            </a>
+          </div>
+
+          <!-- logo -->
+          <div class="logo">
+            <a href="#">
+              <img src="images/logo.png" alt="" srcset="" />
+            </a>
+          </div>
+
+          <!-- icons and contacts -->
+          <div class="icons-contacts">
+            <img src="images/" alt="" srcset="" />
+
+            <a class="d-none d-lg-block" href="tel:+711234567890">
+              <div class="contact">
+                <!-- <img src="icons/phone_icon.png" alt="" srcset=""> -->
+                <i class="fa fa-phone"></i>
+                <span class="phone-num d-none d-xl-block"
+                  >(+71) 1234567890</span
+                >
+              </div>
+            </a>
+            <a
+              class="d-none d-lg-block"
+              href="https://wa.me/212703243875?text=I'm%20interested%20in%20your%20car%20for%20sale"
+            >
+              <div class="contact">
+                <!-- <img src="icons/phone_icon.png" alt="" srcset=""> -->
+                <i class="fa fa-whatsapp"></i>
+                <span class="phone-num d-none d-xl-block"
+                  >(+71) 1234567890</span
+                >
+              </div>
+            </a>
+            <a class="d-none d-lg-block" href="mailto:demo@gmail.com">
+              <div class="contact">
+                <!-- <img src="icons /gmail.svg" alt=""> -->
+                <!-- <img src="icons/mail_icon.png" alt="" srcset=""> -->
+                <i class="fa fa-envelope"></i>
+                <span class="email-domain d-none d-xl-block"
+                  >demo@gmail.com</span
+                >
+              </div>
+            </a>
+
+            <button class="icon d-none d-lg-block">
+              <!-- <img src="icons/search_icon.png" alt="" srcset=""> -->
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header inner -->
+    <!-- end header -->
+
+    <!-- <section class="home">
+    gg
+  </section> -->
+
+    <!-- header home -->
+    <section class="home-section" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">hey,</div>
+          <div class="text-two">Wanna have a Website</div>
+          <!-- <div class="text-three">UI/UX Designer</div> -->
+          <div class="text-three">
+            But You have No
+            <!-- <span style="color: #f00">Experience</span> -->
+            <span style="color: #f00" id="typed"></span>
+          </div>
+          <div class="text-four">
+            <i>Click To Get your quick Website</i>
+          </div>
+        </div>
+        <div class="button">
+          <a href="#contact-title">
+            <button>Get Yours</button>
+          </a>
+        </div>
+      </div>
+      <div class="down">
+        <a href="#about-title"><i class="fa fa-angle-double-down"></i></a>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <div id="about-title" class="section-title">
+      <h1>WHY CHOOSE US?</h1>
+    </div>
+    <section class="about-section">
+      <div class="about-content container">
+        <div class="content-row row">
+          <div class="cont-img-corners col-12 col-md-6">
+            <div class="img"></div>
+            <div class="corner cor1"></div>
+            <div class="corner cor2"></div>
+          </div>
+          <div class="cont-content col-12 col-md-6">
+            <h1>
+              Careo Agency... This is what we are and this is what we can do.
+            </h1>
+            <h4>
+              make any kind of Websites (landing page, Ecommerce, Portfolio
+              Websites...),
+            </h4>
+            <p>
+              Careo agency includes a team of designers who know what makes
+              websites convert. That means they know proper layout, navigation,
+              and calls to action. An "if-it-looks-good-they'll-convert"
+              philosophy doesn't cut it these days. Your designer needs to use
+              data and proven methods when creating your site
+            </p>
+            <p>
+              <a href="#contact-title">
+                <button class="makeit">Get Yours</button>
+              </a>
+              <a href="#services-title">
+                <button class="services">
+                  Services
+                  <i class="fa fa-angle-double-right"></i>
+                </button>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <div id="services-title" class="section-title">
+      <!-- <h1>ANYTHING HERE</h1> -->
+      <h1>Which Website You Want</h1>
+    </div>
+    <section class="services-section">
+      <div class="services-content container">
+        <div class="services-row row">
+          <div class="cont-service col-12 col-sm-6 col-lg-3">
+            <div class="service row" value="Ecommerce Website">
+              <div class="icon col-4 col-sm-12">
+                <span><i class="fa fa-shopping-bag"></i></span>
+              </div>
+              <div class="content col-8 col-sm-12">
+                <div class="title">
+                  <h1>Ecommerce Website</h1>
+                </div>
+                <div class="desc d-none d-sm-block">
+                  <p>
+                    Your Own Market Online | Fully Featured Online Store Today
+                  </p>
+                </div>
+              </div>
+              <div class="checked">
+                <i class="fa fa-check"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="cont-service col-12 col-sm-6 col-lg-3">
+            <div class="service row" value="Landing Page">
+              <div class="icon col-4 col-sm-12">
+                <span><i class="fa fa-file"></i></span>
+              </div>
+              <div class="content col-8 col-sm-12">
+                <div class="title">
+                  <h1>Landing Page</h1>
+                </div>
+                <div class="desc d-none d-sm-block">
+                  <p>Landing Page designs, themes, templates</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cont-service col-12 col-sm-6 col-lg-3">
+            <div class="service row" value="Portfolio Website">
+              <div class="icon col-4 col-sm-12">
+                <span><i class="fa fa-desktop"></i></span>
+              </div>
+              <div class="content col-8 col-sm-12">
+                <div class="title">
+                  <h1>Portfolio Website</h1>
+                </div>
+                <div class="desc d-none d-sm-block">
+                  <p>Your CV as a Website | A Portfolio HTML5 responsive...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cont-service col-12 col-sm-6 col-lg-3">
+            <div class="service row" value="SaaS Website">
+              <div class="icon col-4 col-sm-12">
+                <span><i class="fa fa-archive"></i></span>
+              </div>
+              <div class="content col-8 col-sm-12">
+                <div class="title">
+                  <h1>SaaS Website</h1>
+                </div>
+                <div class="desc d-none d-sm-block">
+                  <p>Get A SaaS Website To Showcase Your Software</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper -->
+    <div class="section-title">
+      <h1>Templates Examples</h1>
+    </div>
+    <div class="swiper projectsSwiper">
+      <div class="swiper-wrapper">
+        <!-- <div class="swiper-slide">
+
+      <div class="project">
+
+        <a href="images/banner-bg.jpg">
+          <div class="img">
+            <img src="images/eCommerce-Website.png" alt="" srcset="">
+          </div>
+        </a>
+
+        <div class="title">
+          <a href="images/banner-bg.jpg">
+            <h3>Portfolio Template</h3>
+          </a>
+        </div>
+
+        <div class="content">
+          A Portfolio HTML5 responsive website template for your Portfolio website. Customize it with Webflow's web
+          design tools and connect it to our powerful ...
+        </div>
+        <div class="view-website">
+          <a href="">
+            <div class="view" role="button">View website</div>
+          </a>
+        </div>
+
+      </div>
+
+    </div> -->
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+      <!-- <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div> -->
+      <div class="container">
+        <div class="show-more-swiper">
+          <a href="">
+            <div class="show">Show more</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- END:Swiper -->
+
+    <!--  START:Contact Us -->
+    <div id="contact-title" class="section-title">
+      <h1>FILL TO GET YOUR WEBSITE</h1>
+    </div>
+    <div class="contact-section-all">
+      <div class="container">
+        <div class="contact-section">
+          <!-- first contact part -->
+          <form
+            action="php/receive_project.php"
+            method="post"
+            class="col-12 row"
+          >
+            <div class="contact inputs-field col-12 col-md-6">
+              <div class="part-field name-input col-12">
+                <input
+                  id="customer-name"
+                  type="text"
+                  name="customer-name"
+                  placeholder="Name or Nickname"
+                  required
+                />
+              </div>
+              <div class="part-field tel-mail-input row col-12">
+                <div class="field-email col-12 col-sm-5">
+                  <input
+                    id="customer-email"
+                    name="customer-email"
+                    type="email"
+                    placeholder="demo@gmail.com"
+                    required
+                  />
+                </div>
+                <div class="or col-12 col-sm-2">
+                  <span class="line"></span>
+                  <span class="or-text">OR</span>
+                  <span class="line"></span>
+                </div>
+                <div class="field-phone col-12 col-sm-5">
+                  <input
+                    id="customer-tel"
+                    name="customer-tel"
+                    type="tel"
+                    placeholder="+212 6123456789"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="part-field select-type col-12">
+                <select
+                  id="project-type"
+                  name="project-type"
+                  class="form-control"
+                >
+                  <option selected value="Simple Website">
+                    Simple Website
+                  </option>
+
+                  <option value="Portfolio Website">Portfolio Website</option>
+                  <option value="Ecommerce Website">Ecommerce Website</option>
+                  <option value="Landing Page">Landing Page</option>
+                  <option value="SaaS Website">SaaS Website</option>
+                </select>
+              </div>
+              <div class="part-field content-textarea col-12">
+                <textarea
+                  id="project-content"
+                  name="project-content"
+                  cols="50"
+                  rows="7"
+                  placeholder="About your Website..."
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- second contact part -->
+
+            <div class="contact label-field col-12 col-md-6">
+              <div class="part letter-date">
+                <span class="date">sept 23, 2022</span>
+              </div>
+
+              <div class="part letter-info">
+                <!-- <span class="info">hh</span> -->
+                <span class="country">Morocco</span>
+                <span class="email">
+                  <label for="customer-email">demo@gmail.com</label>
+                </span>
+                <span class="tel">
+                  <label for="customer-tel">+212 6123456789</label>
+                </span>
+              </div>
+
+              <div class="part letter-dear">
+                <span class="dear"> &nbsp;&nbsp;&nbsp;&nbsp; Dear Careo, </span>
+              </div>
+
+              <div class="part letter-content">
+                <p class="hi">
+                  &nbsp;&nbsp;&nbsp;&nbsp; I'm
+                  <label for="customer-name">Jhon Doe</label>, I contacted you
+                  because of your specialization in designing and developing
+                  websites, scripts and templates, to build my own Website as
+                  <label for="project-type" class="project-type"
+                    >Simple Website</label
+                  >.
+                </p>
+                <p class="content">
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                  <label for="project-content"
+                    >more about your website... Some definition Some definition
+                    Some definition Some definition Some definition Some
+                    definition Some
+                    <!-- ______________________________________________________________________________________ --> </label
+                  >.
+                </p>
+                <p class="bye">&nbsp;&nbsp;&nbsp;&nbsp; Have a gooood day.</p>
+              </div>
+
+              <div class="part letter-signature">
+                <span class="signature">
+                  <label for="customer-name">Jhon Doe</label>.
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span>
+              </div>
+            </div>
+
+            <div class="cont-btn col-12">
+              <button type="submit" name="submit" class="btn">Get your website</button>
+            </div>
+          </form>
+
+          <div class="contact quick-contact row">
+            <div class="or-q-contact row col-12 bg-danger">
+              <span class="line col-5"></span>
+              <span class="or-text col-2">OR</span>
+              <span class="line col-5"></span>
+            </div>
+
+            <a class="col-12 col-sm-6 col-lg-3" href="tel:+711234567890">
+              <div class="contact-part call">
+                <!-- <img src="icons/phone_icon.png" alt="" srcset=""> -->
+                <i class="fa fa-phone part-icon"></i>
+                <span class="phone-num">(+71) 1234567890</span>
+              </div>
+            </a>
+            <a
+              class="col-12 col-sm-6 col-lg-3"
+              href="https://wa.me/212703243875?text=I'm%20interested%20in%20your%20car%20for%20sale"
+            >
+              <div class="contact-part whatsapp">
+                <i class="fa fa-whatsapp part-icon"></i>
+                <span class="whatsapp-num">(+71) 1234567890</span>
+              </div>
+            </a>
+            <a class="col-12 col-sm-6 col-lg-3" href="mailto:demo@gmail.com">
+              <div class="contact-part email">
+                <i class="fa fa-envelope part-icon"></i>
+                <span class="email-domain">demo@gmail.com</span>
+              </div>
+            </a>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="contact-part social-media">
+                <i class="fa fa-wechat part-icon"></i>
+
+                <div class="icons-social">
+                  <a href="">
+                    <div class="icon facebook">
+                      <i class="fa fa-facebook"></i>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="icon instagram">
+                      <i class="fa fa-instagram"></i>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="icon youtube">
+                      <i class="fa fa-youtube-play"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <select name="ads" id="">
+              <option value="ar">hello ar</option>
+              <option value="en">hello en</option>
+              <option value="fr">hello fr</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  END:Contact Us -->
+
+    <!-- footer section -->
+
+    <footer>
+      <div class="footer-content row">
+        <div class="triangle col-12">
+          <div class="arrow-down"></div>
+        </div>
+        <div class="links col-12 col-md-6">
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="icons col-12 col-md-6">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="copyright col-12">
+          <div class="container">
+            <p>All rights reserved | By <a href="#home">Careo</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="jquery/jquery.js"></script>
+    <script src="js/nav-app.js"></script>
+    <script src="typeed.js/typed.min.js"></script>
+    <script src="js/header-home.js"></script>
+    <script src="js/services-section.js"></script>
+    <script src="js/mine_swiper.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
